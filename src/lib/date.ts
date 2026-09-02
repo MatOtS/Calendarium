@@ -59,3 +59,9 @@ export function getMonthMatrix(referenceDate: Date): Date[][] {
   }
   return weeks
 }
+
+// Los 7 días (lunes a domingo) de la semana que contiene referenceDate.
+export function getWeekDays(referenceDate: Date): Date[] {
+  const start = startOfWeek(referenceDate)
+  return Array.from({ length: 7 }, (_, i) => addDays(start, i))
+}
