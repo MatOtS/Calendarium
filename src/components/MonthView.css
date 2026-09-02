@@ -22,7 +22,9 @@
   padding: 8px 12px;
   font-size: 13px;
   color: var(--text);
-  text-align: right;
+  text-align: center;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .month-view__day {
@@ -37,7 +39,7 @@
 }
 
 .month-view__day--outside .month-view__day-number {
-  color: var(--border);
+  color: var(--outDate);
 }
 
 .month-view__day-number {
