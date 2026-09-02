@@ -32,3 +32,7 @@ Notas y Supuestos
 El producto es una aplicación web (no móvil nativa) en esta fase MVP.
 No requiere sincronización multi-dispositivo ni autenticación de usuarios en el alcance inicial.
 Funcionalidades como notificaciones, invitaciones a terceros, integración con Google Calendar o búsqueda de compromisos quedan fuera del MVP y pueden incorporarse en v2 una vez validada la métrica de éxito.
+
+## Roadmap técnico (pendiente)
+
+- **CI**: configurar GitHub Actions para correr tests (y build/lint) automáticamente en cada PR y al mergear, evitando romper `main` sin darse cuenta.
