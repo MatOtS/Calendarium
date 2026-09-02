@@ -1,0 +1,57 @@
+.month-view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.month-view__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.month-view__grid--header {
+  border-bottom: 1px solid var(--border);
+}
+
+.month-view__grid--body {
+  flex: 1;
+  grid-auto-rows: 1fr;
+}
+
+.month-view__weekday {
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--text);
+  text-align: right;
+}
+
+.month-view__day {
+  padding: 8px 12px;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+}
+
+.month-view__day:nth-child(7n) {
+  border-right: none;
+}
+
+.month-view__day--outside .month-view__day-number {
+  color: var(--border);
+}
+
+.month-view__day-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.month-view__day--today .month-view__day-number {
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+}
