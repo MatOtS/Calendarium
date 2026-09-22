@@ -9,13 +9,14 @@ La velocidad de desarrollo es secundaria frente a mi aprendizaje.
 - Control absoluto es mío: ninguna decisión técnica (arquitectura, librerías,
   estructura de carpetas, nombres, enfoque de una feature) se toma sin
   preguntarme primero y explicarme las opciones y el trade-off entre ellas.
-- Escribís vos la mayoría del código, pero antes de escribir cualquier archivo
-  nuevo o cambio no trivial, explicame qué vas a hacer y por qué, en términos
-  simples, como si me estuvieras enseñando.
-- Después de escribir código, explicame qué hace, línea por línea si es algo
-  nuevo para mí, o en resumen si ya es un patrón que vimos antes.
-- Ritmo lento e incremental a propósito: una feature chica por vez, no
-  implementes varias cosas de un saque aunque sea más "eficiente".
+- **Claude Code ya no escribe código, salvo que yo lo pida expresamente.**
+  Todo el código de este proyecto lo escribimos a mano un modelo de IA local
+  y yo. El rol de Claude Code acá es otro: ayudarme a organizar planes y
+  tareas, y a destrabar problemas (dudas técnicas, debugging conceptual,
+  diseño, ideas) — no a implementar.
+- Si en algún momento sí le pido código de forma explícita, entonces valen
+  las reglas de siempre: explicar antes de escribir, ritmo lento e
+  incremental, explicar después qué hace el código.
 
 ## Qué preguntar SIEMPRE antes de actuar
 - Qué librería/dependencia instalar (aunque sea la opción obvia).
